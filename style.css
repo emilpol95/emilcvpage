@@ -1,0 +1,92 @@
+body{
+	
+}
+@media(min-width:968px){
+	#wrapper{
+		width:1000px;
+		height:1100px;
+		margin:0 auto;
+		background-color:#EDF1ED;
+	}
+	.profileBox{
+		width:1000px;
+		height:180px;
+		display:flex;
+	}
+	.profCon-1{
+		width:800px;		
+	}
+	.profCon-2{
+		width:200px;	
+	}
+	.profCon-2 img{
+		width:100%;
+		height:100%;		
+	}
+	.container-1{
+		width:800px;
+		height:200px;
+		background-color:#F2E3DF;
+	}
+	.container-2{
+		width:800px;
+		height:750px;
+		display:flex;
+		justify-content:space-between;
+		text-align:center:
+	}
+	.container-3{
+		float:right;
+		width:200px;
+		height:950px;
+		background-color:#F2E3DF;
+		text-align:center;
+	}
+	.experience{
+		width:50%;
+		background-color:#F2E3DF;
+	}
+	.education{
+		width:50%;
+		background-color:#F2E3DF;
+	}
+	ul.no-bullets {
+		list-style-type: none; /* Remove bullets */
+		padding: 0; /* Remove padding */
+		margin: 0; /* Remove margins */	
+	}
+	.tabTitle{
+		text-align:center;
+	}
+	.empTitle{
+		text-decoration:underline;
+	}
+	.container-1 div{
+		border:1px #ccc solid;
+		padding:10px;
+	}
+
+	.container-2 div{
+		border:1px #ccc solid;
+		padding:10px;
+	}
+
+	.container-3 div{
+		border:1px #ccc solid;
+		height:928px;
+		padding:10px;
+	}
+	.sidebarTitleMain{
+		font-size:140%;
+		color:#EF7A61;
+		text-decoration:underline;
+	}
+	.sidebarTitle{
+		text-decoration:underline;
+	}
+	
+	.coverLetter{
+		padding:5%;
+		margin:5%;
+	}
+}
